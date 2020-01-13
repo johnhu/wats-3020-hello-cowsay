@@ -1,7 +1,8 @@
 
 //TODO require cowsay
-
+const cowsay = require("cowsay");
 //TODO require getargs
+const getargs = require("./modules/get-args")
 
 // get first string from command line
 let textArg = getargs.getStringArg()
